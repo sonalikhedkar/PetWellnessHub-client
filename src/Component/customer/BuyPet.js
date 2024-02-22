@@ -58,7 +58,7 @@ class BuyPet extends Component {
             Swal.fire({
               position: "center",
               icon: "success",
-              title: "pet added to your cart successfully...",
+              title: "Thanks For Buying...",
               showConfirmButton: false,
               timer: 1500,
             });
@@ -115,7 +115,7 @@ class BuyPet extends Component {
                   <p className="card-text"> <b>Age:</b>{b1.age}</p>
                   <p className="card-text"><b>Weight:</b> {b1.weight}</p>
                   <p className="card-text"><b>Description:</b> {b1.description}</p>
-                  <p className="card-text"><b>Price:</b> {b1.price}</p>
+                  
                   
                   <div className="col-10"></div>
                   <hr />
