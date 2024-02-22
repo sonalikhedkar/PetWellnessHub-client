@@ -69,6 +69,7 @@ class Login extends Component {
       } else if (this.state.role === "admin") {
         ApiService.loginVendor(details)
           .then((resp) => {
+	   console.log(resp);
             this.setState({ message: "Login successfully." });
             localStorage.removeItem("role");
             localStorage.removeItem("loginDetails");
