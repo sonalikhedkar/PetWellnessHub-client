@@ -13,7 +13,7 @@ function AdminNavBar() {
   return (
     <>
       <nav
-        className="navbar navbar-expand-lg navbar-light sticky-top"
+        className="navbar navbar-expand-lg navbar-info sticky-top"
         style={{ backgroundColor: "#e3f2fd" }}
       >
         <div className="container-fluid">
